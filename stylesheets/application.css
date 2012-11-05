@@ -13,4 +13,9 @@ body .separator{clear:both;}
 #footer #txt{float:left;margin-top:44px;color:white;}
 #footer #redes{float:left;margin:44px 0 0 72px;}
 #footer #talento{float:right;margin-top:44px;}
-#content #home{margin-top:387px;}
+#title{background:url(../images/conheca_santarem/title.png);height:150px;}#title #img_title{margin-left:30px;margin-top:45px;}
+#title #img_local{float:right;margin-top:60px;}
+#content{}#content #home{margin-top:387px;}
+#content #conheca_santarem{background:url(../images/conheca_santarem/img_fundo.png) no-repeat;margin-left:65px;}#content #conheca_santarem #coluna_texto{float:left;background:url(../images/conheca_santarem/background.png);width:419px;height:588px;margin-left:30px;margin-top:30px;}#content #conheca_santarem #coluna_texto .texto_titulo{font-size:3px;color:#FFF;padding-left:20px;}
+#content #conheca_santarem #coluna_texto p{font-size:16px;color:#FFF;padding-left:20px;margin-bottom:20px;width:370px;text-align:justify;}
+#content #conheca_santarem #coluna_menu{float:right;margin-right:165px;}#content #conheca_santarem #coluna_menu ul{list-style-type:none;}

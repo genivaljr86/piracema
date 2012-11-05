@@ -20,5 +20,5 @@
             	<a href=""><img src="<?php servidor();?>images/redes/1_off.png" alt="" class="botao"></a>
                 <a href=""><img src="<?php servidor();?>images/redes/2_off.png" alt="" class="botao"></a>
             </div>
-            <a href="http://talentodesign.com.br/"><img src="images/talento.png" alt="" id="talento"></a>
+            <a href="http://talentodesign.com.br/"><img src="<?php servidor();?>images/talento.png" alt="" id="talento"></a>
     	</div>

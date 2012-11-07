@@ -9,13 +9,20 @@ body .separator{clear:both;}
 #header #faixa #menu_e,#header #faixa #menu_d{margin-top:58px;}
 #header #faixa #menu_e{float:left;margin-left:30px;}
 #header #faixa #menu_d{float:right;margin-right:30px;}
-#footer{background-color:black;height:158px;}#footer #faixa{background-color:#e9a123;height:40px;}#footer #faixa ul{list-style:none;width:520px;padding-top:10px;}#footer #faixa ul li{float:left;margin-right:5px;}
+#footer{margin-top:10px;background-color:black;height:158px;}#footer #faixa{background-color:#e9a123;height:40px;}#footer #faixa ul{list-style:none;width:520px;padding-top:10px;}#footer #faixa ul li{float:left;margin-right:5px;}
 #footer #txt{float:left;margin-top:44px;color:white;}
 #footer #redes{float:left;margin:44px 0 0 72px;}
 #footer #talento{float:right;margin-top:44px;}
 #title{background:url(../images/conheca_santarem/title.png);height:150px;}#title #img_title{margin-left:30px;margin-top:45px;}
-#title #img_local{float:right;margin-top:60px;}
-#content{}#content #home{margin-top:387px;}
+#title #img_local{float:right;margin-top:60px;margin-right:80px;}
+#content{}#content #principal{float:left;background:url(../images/img_fundo.png);width:855px;height:640px;margin-left:65px;}
+#content #home{margin-top:387px;}
 #content #conheca_santarem{background:url(../images/conheca_santarem/img_fundo.png) no-repeat;margin-left:65px;}#content #conheca_santarem #coluna_texto{float:left;background:url(../images/conheca_santarem/background.png);width:419px;height:588px;margin-left:30px;margin-top:30px;}#content #conheca_santarem #coluna_texto .texto_titulo{font-size:3px;color:#FFF;padding-left:20px;}
 #content #conheca_santarem #coluna_texto p{font-size:16px;color:#FFF;padding-left:20px;margin-bottom:20px;width:370px;text-align:justify;}
 #content #conheca_santarem #coluna_menu{float:right;margin-right:165px;}#content #conheca_santarem #coluna_menu ul{list-style-type:none;}
+#content #cardapio #titulo_cardapio{float:left;background:url(../images/cardapio/bg_titulo.png);width:621px;height:60px;margin-top:20px;}#content #cardapio #titulo_cardapio img{margin-top:20px;margin-left:60px;}
+#content #cardapio #menu_cardapio{margin-top:100px;width:800px;height:500px;}#content #cardapio #menu_cardapio ul{list-style-type:none;margin-left:50px;}#content #cardapio #menu_cardapio ul li{float:left;margin-left:10px;margin-top:10px;}
+#content #quem_somos #texto{float:left;background:url(../images/quem_somos/bg_texto.png);width:534px;height:588px;margin-left:35px;}#content #quem_somos #texto img{margin-top:50px;padding-left:30px;}
+#content #quem_somos #texto p{font-family:verdana;font-size:14px;padding-left:30px;margin-top:20px;text-align:justify;color:#FFF;margin-bottom:20px;width:470px;}
+#content #quem_somos #coluna_fotos{background-color:#e5a745;float:right;margin-top:20px;margin-right:90px;width:300px;right:200px;height:600px;}#content #quem_somos #coluna_fotos #arrow{margin-left:20px;}
+#content #quem_somos #coluna_fotos #slider_fundo{margin-top:21px;margin-left:37px;}

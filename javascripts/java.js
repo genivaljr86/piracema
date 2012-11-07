@@ -65,3 +65,18 @@ $(document).ready(function(){
 	$("#slider").cycle({fx:"fade"});
 	
 });
+
+/* ------------ QUEM SOMOS CARROUSEL ---------------------*/
+$(window).load( function(){
+	$(".slide_qms").jCarouselLite({
+    	btnNext: ".quems_prox",
+    	btnPrev: ".quems_prev",
+    	vertical: true,
+		speed:800
+	});
+	
+})
+
+
+
+

@@ -1,8 +1,8 @@
   		<div id="faixa">
         	<div class="centraliza">
 	        	<div id="menu_e">
-                	<a href=""><img src="<?php servidor(); ?>images/menu_top/1_off.png" alt="" class="botao <?php echo $guia[1]; ?>"></a>
-					<a href=""><img src="<?php servidor(); ?>images/menu_top/2_off.png" alt="" class="botao <?php echo $guia[2]; ?>"></a>
+                	<a href="<?php servidor(); ?>"><img src="<?php servidor(); ?>images/menu_top/1_off.png" alt="" class="botao <?php echo $guia[1]; ?>"></a>
+					<a href="<?php servidor(); ?>quem-somos/"><img src="<?php servidor(); ?>images/menu_top/2_off.png" alt="" class="botao <?php echo $guia[2]; ?>"></a>
 					<a href=""><img src="<?php servidor(); ?>images/menu_top/3_off.png" alt="" class="botao <?php echo $guia[3]; ?>"></a>
 	            </div>
 	        	<img src="<?php servidor(); ?>images/logo.png" alt="">

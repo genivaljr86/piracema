@@ -2,6 +2,7 @@
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME}\.php -f 
+<<<<<<< HEAD
 RewriteRule ^contato/?$ contato.php
 RewriteRule ^noticias\/?$ noticias.php
 RewriteRule ^trabalhe-conosco/?$ trabalhe-conosco.php
@@ -17,4 +18,8 @@ RewriteRule ^lancamentos/o/([a-z0-9-]*)\/?$ lancamentos.php?o=$1
 RewriteRule ^obras-andamento/o/([a-z0-9-]*)\/?$ obras-andamento.php?o=$1
 RewriteRule ^obras-andamento/p/([1-3]*)\/?$ obras-andamento.php?p=$1
 RewriteRule ^obras-concluidas/p/([0-9]*)\/?$ obras-concluidas.php?p=$1
+=======
+RewriteRule ^quem-somos\/?$ quem-somos.php
+RewriteRule ^contato\/?$ contato.php
+>>>>>>> Checando...
 </IfModule>

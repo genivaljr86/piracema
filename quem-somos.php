@@ -1,22 +1,14 @@
 <?php include("header.php");
-<<<<<<< HEAD
 $guia[1]="current";	 
  ?>
     <title>Restaurante Piracema</title>
 
   </head>  
   
-=======
-$guia[2]="current";
- ?>
-    <title>Restaurante Piracema | Quem Somos</title>
-  </head>
->>>>>>> Checando...
   <body>
     <div id="header">
     	<?php include("topo.php"); ?>
     </div>
-<<<<<<< HEAD
     
     	<div id="title">
         	<div class="centraliza">
@@ -63,24 +55,10 @@ $guia[2]="current";
                    
             <div class="separator"></div>
 	    </div>
-=======
-    <div id="titulo">
-    	<h2 class="title"></h2>
-        <img src="" alt="" class="nav">
-    </div>
-    <div id="content">
-    	<div id="quems" class="centraliza">
-        </div>
->>>>>>> Checando...
     </div>
     
     <div id="footer">
     	<?php include("footer.php"); ?>
     </div>
   </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
-
->>>>>>> Checando...

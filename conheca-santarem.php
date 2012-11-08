@@ -67,15 +67,15 @@ $pg = $_GET["pg"];
                     
                     <div id="coluna_menu"> 
                     	<ul>
-			                <li><a href="<?php servidor(); ?>conheca_santarem/pg/historico"><img src="<?php servidor(); ?>images/conheca_santarem/menu/historico_off.png" alt="" class="botao"></a></li>
+			                <li><a href="<?php servidor(); ?>conheca-santarem/pg/historico"><img src="<?php servidor(); ?>images/conheca_santarem/menu/historico_off.png" alt="" class="botao"></a></li>
                             
-                    		<li><a href="<?php servidor(); ?>conheca_santarem/pg/geografia"><img src="<?php servidor(); ?>images/conheca_santarem/menu/geografia_off.png" alt="" class="botao"></a></li>
+                    		<li><a href="<?php servidor(); ?>conheca-santarem/pg/geografia"><img src="<?php servidor(); ?>images/conheca_santarem/menu/geografia_off.png" alt="" class="botao"></a></li>
                             
-                    		<li><a href="<?php servidor(); ?>conheca_santarem/pg/origem-do-nome"><img src="<?php servidor(); ?>images/conheca_santarem/menu/origem_do_nome_off.png" alt="" class="botao"></a></li>
+                    		<li><a href="<?php servidor(); ?>conheca-santarem/pg/origem-do-nome"><img src="<?php servidor(); ?>images/conheca_santarem/menu/origem_do_nome_off.png" alt="" class="botao"></a></li>
                             
-                    		<li><a href="<?php servidor(); ?>conheca_santarem/pg/cultura"><img src="<?php servidor(); ?>images/conheca_santarem/menu/cultura_off.png" alt="" class="botao"></a></li>
+                    		<li><a href="<?php servidor(); ?>conheca-santarem/pg/cultura"><img src="<?php servidor(); ?>images/conheca_santarem/menu/cultura_off.png" alt="" class="botao"></a></li>
                             
-                    		<li><a href="<?php servidor(); ?>conheca_santarem/pg/turismo"><img src="<?php servidor(); ?>images/conheca_santarem/menu/turismo_off.png" alt="" class="botao"></a></li>
+                    		<li><a href="<?php servidor(); ?>conheca-santarem/pg/turismo"><img src="<?php servidor(); ?>images/conheca_santarem/menu/turismo_off.png" alt="" class="botao"></a></li>
                             
                     		<li><a href="<?php servidor(); ?>"><img src="<?php servidor(); ?>images/conheca_santarem/menu/galeria_de_fotos_off.png" alt=""  class="botao"></a></li>
                     	</ul>

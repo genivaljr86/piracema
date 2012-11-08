@@ -16,7 +16,11 @@ body .separator{clear:both;}
 #title{background:url(../images/conheca_santarem/title.png);height:150px;}#title #img_title{margin-left:30px;margin-top:45px;}
 #title #img_local{float:right;margin-top:60px;margin-right:80px;}
 #content{}#content #principal{float:left;background:url(../images/img_fundo.png);width:855px;height:640px;margin-left:65px;}
-#content #home{margin-top:387px;}
+#content #home{height:1065px;}#content #home #coluna1{float:left;margin-top:385px;margin-left:45px;}#content #home #coluna1 #comentario{background-color:#b26d08;height:400px;}
+#content #home #coluna1 #conheca-santarem{margin-top:10px;}
+#content #home #coluna2{float:left;margin-top:385px;margin-left:10px;}
+#content #home #coluna3{float:left;margin-top:376px;margin-left:1px;}#content #home #coluna3 #twitter{background:url(../images/home/bg_twitter.jpg);height:325px;width:216px;}
+#content #home #coluna3 #face{background:url(../images/home/facebook.jpg);height:365px;}
 #content #conheca_santarem{background:url(../images/conheca_santarem/img_fundo.png) no-repeat;margin-left:65px;}#content #conheca_santarem #coluna_texto{float:left;background:url(../images/conheca_santarem/background.png);width:419px;height:588px;margin-left:30px;margin-top:30px;}#content #conheca_santarem #coluna_texto .texto_titulo{font-size:3px;color:#FFF;padding-left:20px;}
 #content #conheca_santarem #coluna_texto p{font-size:16px;color:#FFF;padding-left:20px;margin-bottom:20px;width:370px;text-align:justify;}
 #content #conheca_santarem #coluna_menu{float:right;margin-right:165px;}#content #conheca_santarem #coluna_menu ul{list-style-type:none;}

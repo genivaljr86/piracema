@@ -3,18 +3,9 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME}\.php -f 
 RewriteRule ^contato/?$ contato.php
-RewriteRule ^noticias\/?$ noticias.php
-RewriteRule ^trabalhe-conosco/?$ trabalhe-conosco.php
-RewriteRule ^obras-concluidas/?$ obras-concluidas.php
-RewriteRule ^lancamentos/?$ lancamentos.php
-RewriteRule ^obras-andamento/?$ obras-andamento.php
+RewriteRule ^cardapio/?$ cardapio.php
+RewriteRule ^conheca-santarem/?$ conheca-santarem.php
+RewriteRule ^conheca-santarem/pg/([a-z0-9-]*)\/?$ conheca-santarem.php?pg=$1
 RewriteRule ^quem-somos\/?([1-3]*)\/?$ quem-somos.php?qs_pg2805=$1
-RewriteRule ^conheca_santarem/pg/([a-z0-9-]*)\/?$ conheca_santarem.php?pg=$1
-RewriteRule ^conheca_santarem\/?$ conheca_santarem.php
-RewriteRule ^noticias/pg/([0-9]*)\/?$ noticias.php?pg2802=$1
-RewriteRule ^obras-concluidas/o/([a-z0-9-]*)\/?$ obras-concluidas.php?o=$1
-RewriteRule ^lancamentos/o/([a-z0-9-]*)\/?$ lancamentos.php?o=$1
-RewriteRule ^obras-andamento/o/([a-z0-9-]*)\/?$ obras-andamento.php?o=$1
-RewriteRule ^obras-andamento/p/([1-3]*)\/?$ obras-andamento.php?p=$1
-RewriteRule ^obras-concluidas/p/([0-9]*)\/?$ obras-concluidas.php?p=$1
+
 </IfModule>

@@ -1,11 +1,12 @@
 <?php include("header.php");
-$guia[1]="current";
+$guia[4]="current";
 $pg = $_GET["pg"];
  if($pg ==""){
 	 $pg="historico";
 	 }
 
- ?>
+	 
+?>
     <title>Restaurante Piracema</title>
 
   </head>  
@@ -17,10 +18,9 @@ $pg = $_GET["pg"];
     
     	<div id="title">
         	<div class="centraliza">
-            <img src="<?php servidor(); ?>images/conheca_santarem/conheca_santarem.png" alt="" id="img_title">
-			<img src="<?php servidor(); ?>images/conheca_santarem/local.png" alt="" id="img_local">
-            </div>
-	        
+	            <img src="<?php servidor(); ?>images/conheca_santarem/conheca_santarem.png" alt="" id="img_title">
+				<img src="<?php servidor(); ?>images/conheca_santarem/local.png" alt="" id="img_local">
+            </div>	        
         </div>
         
     	<div id="content" class="centraliza">        
@@ -61,7 +61,22 @@ $pg = $_GET["pg"];
                     <p class="texto_titulo"><img src="<?php servidor(); ?>images/conheca_santarem/" alt=""> </p> 
                       <br>
                     <p>TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO TESTE_TURISMO </p>
-                    <?php } ?>	                    
+                    <?php } ?>	    
+                    
+                    
+                    <?php if($pg == "galeria-de-fotos"){?>
+	                    <p class="texto_titulo"><img src="<?php servidor(); ?>images/conheca_santarem/galeria-de-fotos.png" alt=""> </p> 
+    	                  <br>                         	 
+                       <ul>
+			              <li><a href="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" rel="prettyPhoto"><img src="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" alt="" class="botao"></a></li>
+			              <li><a href="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" rel="prettyPhoto"><img src="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" alt="" class="botao"></a></li>
+                          <li><a href="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" rel="prettyPhoto"><img src="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" alt="" class="botao"></a></li>
+                          <li><a href="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" rel="prettyPhoto"><img src="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" alt="" class="botao"></a></li>
+                          <li><a href="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" rel="prettyPhoto"><img src="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" alt="" class="botao"></a></li>
+                          <li><a href="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" rel="prettyPhoto"><img src="<?php servidor(); ?>images/conheca_santarem/galeria/1.png" alt="" class="botao"></a></li>            		                   
+                      </ul>                    		
+                    <?php } ?>	
+     
                       
 			        </div>
                     
@@ -77,7 +92,7 @@ $pg = $_GET["pg"];
                             
                     		<li><a href="<?php servidor(); ?>conheca-santarem/pg/turismo"><img src="<?php servidor(); ?>images/conheca_santarem/menu/turismo_off.png" alt="" class="botao"></a></li>
                             
-                    		<li><a href="<?php servidor(); ?>"><img src="<?php servidor(); ?>images/conheca_santarem/menu/galeria_de_fotos_off.png" alt=""  class="botao"></a></li>
+                    		<li><a href="<?php servidor(); ?>conheca-santarem/pg/galeria-de-fotos"><img src="<?php servidor(); ?>images/conheca_santarem/menu/galeria_de_fotos_off.png" alt=""  class="botao"></a></li>
                     	</ul>
                     
                     
@@ -89,5 +104,9 @@ $pg = $_GET["pg"];
     <div id="footer">
     	<?php include("footer.php"); ?>
     </div>
+    <script type="text/javascript">
+    	/* ------------ GALERIA FANCY BOX ---------------------*/
+	$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:" ",deeplinking: false});
+    </script>
   </body>
 </html>

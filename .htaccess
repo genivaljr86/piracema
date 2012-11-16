@@ -3,6 +3,7 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME}\.php -f 
 RewriteRule ^contato/?$ contato.php
+Rewriterule ^galeria/?$ galeria.php
 RewriteRule ^cardapio/?$ cardapio.php
 RewriteRule ^conheca-santarem/?$ conheca-santarem.php
 RewriteRule ^conheca-santarem/pg/([a-z0-9-]*)\/?$ conheca-santarem.php?pg=$1

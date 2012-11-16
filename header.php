@@ -23,11 +23,14 @@
           s.parentNode.insertBefore(g, s);
         })(document, 'script');
       </script>
-      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/boot_modal/css/bootstrap.css" media="all">
-      <script type="text/javascript" src="javascripts/jcarousellite_1.0.1.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/boot_modal/css/bootstrap.css" media="all">  
+      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/jquery.tweet.css" media="all">  
+      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/prettyPhoto.css" media="all">
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.prettyPhoto.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.tweet.js"></script> 
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jcarousellite_1.0.1.min.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/boot_modal/js/bootstrap.js"></script>
-      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.linkify-1.0.js"></script>
-      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.jtwitter.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.linkify-1.0.js"></script>      
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.cycle.all.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/java.js"></script>
     <!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->

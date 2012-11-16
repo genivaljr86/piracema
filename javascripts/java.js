@@ -15,8 +15,10 @@ $(document).ready(function(){
 		var end2= $(this).attr('src');
 		var hov2 = end2.replace('_off.png','_on.png');
 		$(this).attr('src', hov2);
+	});		
+
+
 		
-		});
 	/* ------------ CONTATO  AJAX ---------------------*/
 	$("#contato_enviando").on('hidden',function(){
 			$("#contato_enviando p").html('<center><img src="images/loading2.gif" alt=""></center>');
@@ -52,22 +54,15 @@ $(document).ready(function(){
 		}
 		return false;
 		});
-		
-	/*------------------Twitter Plugin --------------------------*/
-	$.jTwitter('', 1, function(data){
-        $('#twits').empty();
-        $.each(data, function(i, post){
-            $('#twits').append("<p>"+post.text+"</p>");
-			$('#twits p').linkify();
-        });
-    });
+
+
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
 	
 });
 
 /* ------------ QUEM SOMOS CARROUSEL ---------------------*/
-$(window).load( function(){
+$(window).load( function(){	
 	$(".slide_qms").jCarouselLite({
     	btnNext: ".quems_prox",
     	btnPrev: ".quems_prev",
@@ -75,8 +70,8 @@ $(window).load( function(){
 		speed:800
 	});
 	
-})
-
-
-
+	/* ------------ TWIITER ---------------------*/
+	$("#tweet").tweet();	
+	
+});
 

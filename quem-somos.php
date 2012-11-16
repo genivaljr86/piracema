@@ -1,5 +1,5 @@
 <?php include("header.php");
-$guia[1]="current";	 
+$guia[2]="current";	 
  ?>
     <title>Restaurante Piracema</title>
 

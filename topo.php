@@ -8,8 +8,8 @@
 	        	<img src="<?php servidor(); ?>images/logo.png" alt="">
 	            <div id="menu_d">
 	            	<a href="<?php servidor(); ?>conheca-santarem"><img src="<?php servidor(); ?>images/menu_top/4_off.png" alt="" class="botao <?php echo $guia[4]; ?>"></a>
-	            	<a href="<?php servidor(); ?>"><img src="<?php servidor(); ?>images/menu_top/5_off.png" alt="" class="botao <?php echo $guia[5]; ?>"></a>
-	            	<a href="<?php servidor(); ?>"><img src="<?php servidor(); ?>images/menu_top/6_off.png" alt="" class="botao <?php echo $guia[6]; ?>"></a>
+	            	<a href="<?php servidor(); ?>galeria"><img src="<?php servidor(); ?>images/menu_top/5_off.png" alt="" class="botao <?php echo $guia[5]; ?>"></a>
+	            	<a href="<?php servidor(); ?>contato"><img src="<?php servidor(); ?>images/menu_top/6_off.png" alt="" class="botao <?php echo $guia[6]; ?>"></a>
 	            </div>
                 <div class="separator"></div>
             </div>

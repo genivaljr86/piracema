@@ -29,6 +29,7 @@ body{
     width:100%;
     height:377px;
     z-index:-3;
+    text-align:center;
     #slider{
         z-index:0;
         width:914px;
@@ -94,12 +95,12 @@ body{
         margin-top:44px;
         }
 	}
-/* CONHEÇA SANTAREM */
-
+    
+/* ESTATICOS */
     #title{
-            background:url(../images/conheca_santarem/title.png) ;
+            background:url(../images/title.png); 
             height:150px;
-            
+        
             #img_title{
                 margin-left:30px;
                 margin-top:45px;
@@ -109,9 +110,12 @@ body{
                 margin-top:60px;
                 margin-right:80px;
             }
+            .texto_titulo{
+                margin-top:10px;
+                }
         }
-        
-/* ESTATICOS */
+
+
 #content{
     #principal{
         float:left;
@@ -136,8 +140,7 @@ body{
          #conheca-santarem{
              margin-top:10px;             
              }
-        }
-            
+        }            
         #coluna2{
             float:left;
             margin-top:385px;
@@ -151,7 +154,7 @@ body{
             margin-top:376px;
             margin-left:1px;
             
-            #twitter{
+            #tweet{
                 background:url(../images/home/bg_twitter.jpg);  
                 height:325px;
                 width:216px;            
@@ -159,23 +162,25 @@ body{
             #face{
                 background:url(../images/home/facebook.jpg);
                 height:365px;
-                }
-            
-            }
-        
-        }    
-        
+                
+                #fbook{
+                    padding-top:125px;                        
+                    }
+                }            
+            }        
+        }         
     
-    /*conheca santarem*/
-    
+ 
+       /* CONHEÇA SANTAREM */
+       
     #conheca_santarem { 
-        background:url(../images/conheca_santarem/img_fundo.png)no-repeat;
+        background:url(../images/img_fundo.png)no-repeat;
         margin-left:65px;
         
         #coluna_texto{
             float:left;
             background:url(../images/conheca_santarem/background.png);
-            width:419px;
+            width:410px;
             height:588px; 
             margin-left:30px;
             margin-top:30px;
@@ -184,6 +189,7 @@ body{
                  font-size:3px;
                  color:#FFF;
                  padding-left:20px;
+                 margin-top:10px;
              }
              p{
                  font-size:16px;
@@ -193,18 +199,25 @@ body{
                  width:370px;
                  text-align:justify;             
                 }
-        }
-             
+        }             
             #coluna_menu{
                 float:right;
-                margin-right: 165px;                
-            
-                ul{
-                    list-style-type:none;
+                margin-right:165px;
+                margin-top:20px;
+            }
+                
+            ul{
+            list-style:none;
+            width:370px;
+            padding-top:10px;
+            margin-left:25px;
+            li{
+                float:left;
+                margin-right:5px;
                 }
-            }        
+            }
+                    
     }    
-    
     /*CARDAPIO*/
       #cardapio{ 
           #titulo_cardapio{
@@ -227,14 +240,13 @@ body{
                ul{
                    list-style-type:none;
                    margin-left:50px;
-                  
                    
                    li{
                        float:left;
                        margin-left:10px;
-                       margin-top:10px;
+                       margin-top:10px;                       
                        }
-                   }               
+                   }           
            }           
      }
      
@@ -281,7 +293,94 @@ body{
             }
             }
         }
-    }            
+    }
+    /* CONTATO*/
+    #area_contato{
+        background:url(../images/contato/bg_contato.png);
+        width:830px;
+        height:680px;
+        margin-left:250px;
+        
+        p{
+            float:left;
+            color:#fff;
+            padding-top:20px;
+            margin-left:20px;
+            font-size:15px;
+             }
+             #formulario{
+                 width:405px;
+                 margin-top:22px;
+                 margin-left:22px;
+                input[type=text]{
+                   background:url(../images/contato/bg_texto.png);
+                   border:none;
+                   outline:none;
+                   width:390px;
+                   height:33px;
+                   margin-bottom:11px;
+                   padding-left:15px;
+                   
+            }
+            textarea{
+                background:url(../images/contato/bg_mensagem.png);
+                border:none;
+                outline:none;
+                width:378px;
+                height:186px;
+                margin-bottom:0px;
+                padding-left:13px;
+                padding-top:10px;
+                }
+         }
+         
+         #endereco{
+            float: right;
+            margin-right:30px;
+            background:url(../images/contato/bg_endereco.png);
+            width:345px;
+            height:220px;  
+            margin-top:-500px;
+            
+                p{
+                    margin-top:40px;
+                    margin-bottom:15px;
+                    margin-left:80px;
+                    
+                    }
+             }
+    }
+    
+    /* GALERIA*/
+         #galeria{ 
+          #titulo_cardapio{
+            img{
+                  margin-top:20px;
+                  margin-left:60px;
+              }              
+           }
+           
+           #menu_galeria{
+               margin-top:20px;
+               width:800px;
+               height:500px;
+               
+               ul{
+                   list-style-type:none;
+                   margin-left:50px;
+                   
+                   li{
+                       float:left;
+                       margin-left:10px;
+                       margin-top:10px;                       
+                       }
+                   }           
+           }           
+     }
+    
+
+    
+
 
     
 

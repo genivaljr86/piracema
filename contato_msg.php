@@ -16,7 +16,7 @@
 	    	<h3>Enviando sua mensagem...</h3>
   		</div>
   		<div class="modal-body">
-    		<p style="text-align:center"><img src="<?php servidor(); ?>images/loading2.gif" alt=""></p>
+    		<p style="text-align:center"><img src="images/loading2.gif" alt=""></p>
   		</div>
   		<div class="modal-footer">
     		<!--<a href="#" class="btn" data-dismiss="modal">OK</a>-->

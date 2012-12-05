@@ -3,27 +3,31 @@
   text-decoration: none; 
 }
 
+/* PEFIS*/
 .fan_box .full_widget{ 
-  height: 212px; 
+  height: 215px; 
   border: 0 !important; 
   background: none !important; 
   position: relative; 
+  margin-left:20px;
 }
 
 .fan_box .connect_top{ 
   background: none !important; 
   padding: 0 !important; 
 }
+
+/* LIKE */
 .fan_box .connect_top a{
 	color:#d89334;
-	margin-top:1px;	
+	margin-top:40px;	
 	margin-left:0px;
 	}
 
 .fan_box .profileimage, .fan_box .name_block{ 
   /*display: none;*/
   color:#d89334;
-  margin-left:10px;  
+  margin-left:15px;  
 }
 
 .fan_box .connect_action{ 

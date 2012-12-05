@@ -37,7 +37,7 @@ $guia[1]="current";
                   <div id="face">
                   	<div id="fbook"><script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US"></script>
 					<script type="text/javascript">FB.init("");</script>
-                    <fb:fan profile_id="115137055223201" stream="0" connections="10" width="250px" height="220px" header="0" logobar="0"   css="http://testelw.engenharia.ws/stylesheets/fb_ck.css?20"></fb:fan>   
+                    <fb:fan profile_id="115137055223201" stream="0" connections="10" width="215px" height="220px" header="0" logobar="0"   css="http://testelw.engenharia.ws/stylesheets/fb_ck.css?26"></fb:fan>   
                    </div>         
             </div>
 	   </div>

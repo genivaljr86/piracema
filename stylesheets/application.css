@@ -1,40 +1,334 @@
 /* CSS crunched with Crunch - http://crunchapp.net/ */
 @import url("reset.css");
-body{background:url(../images/body_bg.jpg) top center;font-family:Verdana;}body .centraliza{width:1000px;margin:0 auto;}
-body a,body a:active,body a:visited{color:inherit;text-decoration:none;}
-body a:hover{color:inherit;text-decoration:underline;}
-body .separator{clear:both;}
-#slider_area{position:absolute;margin-top:10px;background:url(../images/topo_bg.png);width:100%;height:377px;z-index:-3;text-align:center;}#slider_area #slider{z-index:0;width:914px;}
-#header{background:url(../images/topo_bg.png);height:200px;}#header #faixa{float:left;margin-top:105px;height:105px;width:100%;background-color:black;text-align:center;}#header #faixa img{margin-top:-68px;}
-#header #faixa #menu_e,#header #faixa #menu_d{margin-top:58px;}
-#header #faixa #menu_e{float:left;margin-left:30px;}
-#header #faixa #menu_d{float:right;margin-right:30px;}
-#footer{margin-top:10px;background-color:black;height:158px;}#footer #faixa{background-color:#e9a123;height:40px;}#footer #faixa ul{list-style:none;width:520px;padding-top:10px;}#footer #faixa ul li{float:left;margin-right:5px;}
-#footer #txt{float:left;margin-top:44px;color:white;}
-#footer #redes{float:left;margin:44px 0 0 72px;}
-#footer #talento{float:right;margin-top:44px;}
-#title{background:url(../images/title.png);height:150px;}#title #img_title{margin-left:30px;margin-top:45px;}
-#title #img_local{float:right;margin-top:60px;margin-right:80px;}
-#title .texto_titulo{margin-top:10px;}
-#content{}#content #principal{float:left;background:url(../images/img_fundo.png);width:855px;height:640px;margin-left:65px;}
-#content #home{height:1065px;}#content #home #coluna1{float:left;margin-top:385px;margin-left:45px;}#content #home #coluna1 #comentario{background-color:#b26d08;height:400px;}
-#content #home #coluna1 #conheca-santarem{margin-top:10px;}
-#content #home #coluna2{float:left;margin-top:385px;margin-left:10px;}
-#content #home #coluna3{float:left;margin-top:376px;margin-left:1px;}#content #home #coluna3 #tweet{background:url(../images/home/bg_twitter.jpg);height:325px;width:216px;}
-#content #home #coluna3 #face{background:url(../images/home/facebook.jpg);height:365px;}#content #home #coluna3 #face #fbook{padding-top:125px;}
-#content #conheca_santarem{background:url(../images/img_fundo.png) no-repeat;margin-left:65px;}#content #conheca_santarem #coluna_texto{float:left;background:url(../images/conheca_santarem/background.png);width:410px;height:588px;margin-left:30px;margin-top:30px;}#content #conheca_santarem #coluna_texto .texto_titulo{font-size:3px;color:#FFF;padding-left:20px;margin-top:10px;}
-#content #conheca_santarem #coluna_texto p{font-size:16px;color:#FFF;padding-left:20px;margin-bottom:20px;width:370px;text-align:justify;}
-#content #conheca_santarem #coluna_menu{float:right;margin-right:165px;margin-top:20px;}
-#content #conheca_santarem ul{list-style:none;width:370px;padding-top:10px;margin-left:25px;}#content #conheca_santarem ul li{float:left;margin-right:5px;}
-#content #cardapio #titulo_cardapio{float:left;background:url(../images/cardapio/bg_titulo.png);width:621px;height:60px;margin-top:20px;}#content #cardapio #titulo_cardapio img{margin-top:20px;margin-left:60px;}
-#content #cardapio #menu_cardapio{margin-top:100px;width:800px;height:500px;}#content #cardapio #menu_cardapio ul{list-style-type:none;margin-left:50px;}#content #cardapio #menu_cardapio ul li{float:left;margin-left:10px;margin-top:10px;}
-#content #quem_somos #texto{float:left;background:url(../images/quem_somos/bg_texto.png);width:534px;height:588px;margin-left:35px;}#content #quem_somos #texto img{margin-top:50px;padding-left:30px;}
-#content #quem_somos #texto p{font-family:verdana;font-size:14px;padding-left:30px;margin-top:20px;text-align:justify;color:#FFF;margin-bottom:20px;width:470px;}
-#content #quem_somos #coluna_fotos{background-color:#e5a745;float:right;margin-top:20px;margin-right:90px;width:300px;right:200px;height:600px;}#content #quem_somos #coluna_fotos #arrow{margin-left:20px;}
-#content #quem_somos #coluna_fotos #slider_fundo{margin-top:21px;margin-left:37px;}
-#area_contato{background:url(../images/contato/bg_contato.png);width:830px;height:680px;margin-left:250px;}#area_contato p{float:left;color:#fff;padding-top:20px;margin-left:20px;font-size:15px;}
-#area_contato #formulario{width:405px;margin-top:22px;margin-left:22px;}#area_contato #formulario input[type=text]{background:url(../images/contato/bg_texto.png);border:none;outline:none;width:390px;height:33px;margin-bottom:11px;padding-left:15px;}
-#area_contato #formulario textarea{background:url(../images/contato/bg_mensagem.png);border:none;outline:none;width:378px;height:186px;margin-bottom:0px;padding-left:13px;padding-top:10px;}
-#area_contato #endereco{float:right;margin-right:30px;background:url(../images/contato/bg_endereco.png);width:345px;height:220px;margin-top:-500px;}#area_contato #endereco p{margin-top:40px;margin-bottom:15px;margin-left:80px;}
-#galeria #titulo_cardapio img{margin-top:20px;margin-left:60px;}
-#galeria #menu_galeria{margin-top:20px;width:800px;height:500px;}#galeria #menu_galeria ul{list-style-type:none;margin-left:50px;}#galeria #menu_galeria ul li{float:left;margin-left:10px;margin-top:10px;}
+/* Import style sheets, hiding from IE/Mac \*/
+/* End of import hide */
+/* GERAL */
+body {
+  background: url(../images/body_bg.jpg) top center;
+  font-family: Verdana;
+}
+body .centraliza {
+  width: 1000px;
+  margin: 0 auto;
+}
+body a,
+body a:active,
+body a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+body a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+body .separator {
+  clear: both;
+}
+#slider_area {
+  position: absolute;
+  margin-top: 10px;
+  background: url(../images/topo_bg.png);
+  width: 100%;
+  height: 377px;
+  z-index: -3;
+  text-align: center;
+}
+#slider_area #slider {
+  z-index: 0;
+  width: 914px;
+}
+/* HEADER */
+#header {
+  background: url(../images/topo_bg.png);
+  height: 200px;
+}
+#header #faixa {
+  float: left;
+  margin-top: 105px;
+  height: 105px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+#header #faixa img {
+  margin-top: -68px;
+}
+#header #faixa #menu_e,
+#header #faixa #menu_d {
+  margin-top: 58px;
+}
+#header #faixa #menu_e {
+  float: left;
+  margin-left: 30px;
+}
+#header #faixa #menu_d {
+  float: right;
+  margin-right: 30px;
+}
+/* FOOTER */
+#footer {
+  margin-top: 10px;
+  background-color: black;
+  height: 158px;
+}
+#footer #faixa {
+  background-color: #e9a123;
+  height: 40px;
+}
+#footer #faixa ul {
+  list-style: none;
+  width: 520px;
+  padding-top: 10px;
+}
+#footer #faixa ul li {
+  float: left;
+  margin-right: 5px;
+}
+#footer #txt {
+  float: left;
+  margin-top: 44px;
+  color: white;
+}
+#footer #redes {
+  float: left;
+  margin: 44px 0 0 72px;
+}
+#footer #talento {
+  float: right;
+  margin-top: 44px;
+}
+/* ESTATICOS */
+#title {
+  background: url(../images/title.png);
+  height: 150px;
+}
+#title #img_title {
+  margin-left: 30px;
+  margin-top: 45px;
+}
+#title #img_local {
+  float: right;
+  margin-top: 60px;
+  margin-right: 80px;
+}
+#title .texto_titulo {
+  margin-top: 10px;
+}
+#content {
+  /* CONHEÇA SANTAREM */
+
+  /*CARDAPIO*/
+
+  /* QUEM SOMOS */
+
+}
+#content #principal {
+  float: left;
+  background: url(../images/img_fundo.png);
+  width: 855px;
+  height: 640px;
+  margin-left: 65px;
+}
+#content #home {
+  height: 1065px;
+}
+#content #home #coluna1 {
+  float: left;
+  margin-top: 385px;
+  margin-left: 45px;
+}
+#content #home #coluna1 #comentario {
+  background-color: #b26d08;
+  height: 400px;
+}
+#content #home #coluna1 #conheca-santarem {
+  margin-top: 10px;
+}
+#content #home #coluna2 {
+  float: left;
+  margin-top: 385px;
+  margin-left: 10px;
+}
+#content #home #coluna3 {
+  float: left;
+  margin-top: 376px;
+  margin-left: 1px;
+}
+#content #home #coluna3 #tweet {
+  background: url(../images/home/bg_twitter.jpg);
+  height: 325px;
+  width: 216px;
+}
+#content #home #coluna3 #face {
+  background: url(../images/home/facebook.jpg);
+  height: 365px;
+}
+#content #home #coluna3 #face #fbook {
+  padding-top: 125px;
+}
+#content #conheca_santarem {
+  background: url(../images/img_fundo.png) no-repeat;
+  margin-left: 65px;
+}
+#content #conheca_santarem #coluna_texto {
+  float: left;
+  background: url(../images/conheca_santarem/background.png);
+  width: 410px;
+  height: 588px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#content #conheca_santarem #coluna_texto .texto_titulo {
+  font-size: 3px;
+  color: #FFF;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+#content #conheca_santarem #coluna_texto p {
+  font-size: 16px;
+  color: #FFF;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  width: 370px;
+  text-align: justify;
+}
+#content #conheca_santarem #coluna_menu {
+  float: right;
+  margin-right: 165px;
+  margin-top: 20px;
+}
+#content #conheca_santarem ul {
+  list-style: none;
+  width: 370px;
+  padding-top: 10px;
+  margin-left: 25px;
+}
+#content #conheca_santarem ul li {
+  float: left;
+  margin-right: 5px;
+}
+#content #cardapio #titulo_cardapio {
+  float: left;
+  background: url(../images/cardapio/bg_titulo.png);
+  width: 621px;
+  height: 60px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#content #cardapio #titulo_cardapio p {
+  margin-left: 20px;
+  color: white;
+  font-size: 25px;
+}
+#content #cardapio #menu_cardapio {
+  margin: 100px 0 0 32px;
+  width: 800px;
+  height: 500px;
+}
+#content #quem_somos #texto {
+  float: left;
+  background: url(../images/quem_somos/bg_texto.png);
+  width: 534px;
+  height: 588px;
+  margin-left: 35px;
+}
+#content #quem_somos #texto img {
+  margin-top: 50px;
+  padding-left: 30px;
+}
+#content #quem_somos #texto p {
+  font-family: verdana;
+  font-size: 14px;
+  padding-left: 30px;
+  margin-top: 20px;
+  text-align: justify;
+  color: #FFF;
+  margin-bottom: 20px;
+  width: 470px;
+}
+#content #quem_somos #coluna_fotos {
+  background-color: #e5a745;
+  float: right;
+  margin-top: 20px;
+  margin-right: 90px;
+  width: 300px;
+  right: 200px;
+  height: 600px;
+}
+#content #quem_somos #coluna_fotos #arrow {
+  margin-left: 20px;
+}
+#content #quem_somos #coluna_fotos #slider_fundo {
+  margin-top: 21px;
+  margin-left: 37px;
+}
+/* CONTATO*/
+#area_contato {
+  background: url(../images/contato/bg_contato.png);
+  width: 830px;
+  height: 680px;
+  margin-left: 250px;
+}
+#area_contato p {
+  float: left;
+  color: #fff;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+#area_contato #formulario {
+  width: 405px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+#area_contato #formulario input[type=text] {
+  background: url(../images/contato/bg_texto.png);
+  border: none;
+  outline: none;
+  width: 390px;
+  height: 33px;
+  margin-bottom: 11px;
+  padding-left: 15px;
+}
+#area_contato #formulario textarea {
+  background: url(../images/contato/bg_mensagem.png);
+  border: none;
+  outline: none;
+  width: 378px;
+  height: 186px;
+  margin-bottom: 0px;
+  padding-left: 13px;
+  padding-top: 10px;
+}
+#area_contato #endereco {
+  float: right;
+  margin-right: 30px;
+  background: url(../images/contato/bg_endereco.png);
+  width: 345px;
+  height: 220px;
+  margin-top: -500px;
+}
+#area_contato #endereco p {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: 80px;
+}
+/* GALERIA*/
+#galeria #titulo_cardapio img {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+#galeria #menu_galeria {
+  margin-top: 20px;
+  width: 800px;
+  height: 500px;
+}
+#galeria #menu_galeria ul {
+  list-style-type: none;
+  margin-left: 50px;
+}
+#galeria #menu_galeria ul li {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}

@@ -69,7 +69,9 @@ $(window).load( function(){
     	vertical: true,
 		speed:800
 	});
-	
+
+	$('.zoom').zoom();
+
 	/* ------------ TWIITER ---------------------*/
 	$("#tweet").tweet();	
 	

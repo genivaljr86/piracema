@@ -32,6 +32,7 @@
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/boot_modal/js/bootstrap.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.linkify-1.0.js"></script>      
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.cycle.all.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.zoom-min.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/java.js"></script>
     <!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
     <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->

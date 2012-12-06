@@ -1,5 +1,8 @@
 <?php include("header.php");
-$guia[3]="current";	 
+$guia[3]="current";
+$p=1;
+$p = $_GET["p"];
+
  ?>
     <title>Restaurante Piracema</title>
 
@@ -25,19 +28,26 @@ $guia[3]="current";
 	            <div class="separator"></div>
 	            
 			    	<div id="principal">
-                   	 <div id="titulo_cardapio"><img src="<?php servidor(); ?>images/cardapio/titulo_cardapio.png" alt=""></div>
+                   	 <div id="titulo_cardapio">
+                        <p>
+                            Páginas: 
+                            <a href="<?php servidor(); ?>cardapio/1">Frente</a>
+                            &nbsp;
+                            <a href="<?php servidor(); ?>cardapio/2">Verso</a>
+                        </p>
+                    </div>
                     	
                         
                         
-	                   <div id="menu_cardapio"> 
-		                    <ul>
-			                    <li><a href=""><img src="<?php servidor(); ?>images/cardapio/menu/entradas_e_petiscos_off.png" alt="" class="botao"></a></li>
-			                    <li><a href=""><img src="<?php servidor(); ?>images/cardapio/menu/saladas_off.png" alt="" class="botao"></a></li>
-			                    <li><a href=""><img src="<?php servidor(); ?>images/cardapio/menu/reios_e_mar_off.png" alt="" class="botao"></a></li>
-			                    <li><a href=""><img src="<?php servidor(); ?>images/cardapio/menu/carnes_off.png" alt="" class="botao"></a></li>
-			                    <li><a href=""><img src="<?php servidor(); ?>images/cardapio/menu/bebidas_off.png" alt="" class="botao"></a></li>
-			                    <li><a href=""><img src="<?php servidor(); ?>images/cardapio/menu/sobremesas_off.png" alt="" class="botao"></a></li>
-			                </ul>
+	                   <div id="menu_cardapio">
+		                    <div class="zoom" style="height:510;">
+                            <?php if($p==2){ ?>
+                                <img src="<?php servidor(); ?>images/cardapio/cardapio2.jpg" alt="" style="height:510px; width:auto;"/>
+                            <?php }else{ ?>
+                                <img src="<?php servidor(); ?>images/cardapio/cardapio1.jpg" alt="" style="height:510px; width:auto;"/>
+                            <?php } ?>
+                            </div>
+
 	                  </div>    
 			        </div>  
                 </div>                  
